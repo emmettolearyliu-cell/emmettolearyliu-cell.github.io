@@ -1,20 +1,24 @@
 body {
-    background-color: antiquewhite;
+    margin: 0px;
+    background-color: #9cafb7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#myContainer{
-    color: cornflowerblue;
+.NavigatorBar{
+    height: 65px;
+    text-align:left;
+    line-height:65px;
+    font-size:15px;
+    background-color: #9d939f;
 }
-.MyContainerType{
-    color: darkgoldenrod;
-    border: 3px;
-    border-color: black;
-    border-style: dashed;
+
+.TopNavButton{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #564E58;
+    border-radius: 10px;
 }
-.MyButton{
-    background-color: darkgreen;
-    transition-duration: 50ms;
-}
-.MyButton:hover{
-    background-color: green;
+
+.TopNavButton:hover{
+    background-color: #afc1c9;
 }
